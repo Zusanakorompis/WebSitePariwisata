@@ -23,17 +23,17 @@ header {
 }
 
 nav {
-   float:
-   text-align:
-   padding-right:
-   margin-top:
+   float:right; /* Set Value here */
+   text-align:justify;/* Set Align Text */
+   padding-right:10px;/* Set Padding Right */
+   margin-top:10px;/* Set Margin Top */
 }
 
 li {
-   display:
-   margin-right:
-   margin-bottom:
-   color:
+   display:inline-block;
+   margin-right:2px;/* Set Margin Right */
+   margin-bottom:5px;/* Set Margin Bottom */
+   color:blue;/* Set Color */
 }
 
 a {
@@ -41,13 +41,13 @@ a {
 }
 
 li a {
-   display:
-   padding:
+   display:block;
+   padding:10px 15px;
 }
 
 li a:hover {
-   background-color:
-   color:
+   background-color:blue;
+   color: #FFFFFF;
 }
 
 h1 {
