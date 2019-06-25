@@ -23,17 +23,16 @@ header {
 }
 
 nav {
-   float:right; /* Set Value here */
-   text-align:justify;/* Set Align Text */
-   padding-right:10px;/* Set Padding Right */
-   margin-top:10px;/* Set Margin Top */
+   float:right;
+   text-align:justify;
+   padding-right:10px;
+   margin-top:10px;
 }
-
 li {
    display:inline-block;
-   margin-right:2px;/* Set Margin Right */
-   margin-bottom:5px;/* Set Margin Bottom */
-   color:blue;/* Set Color */
+   margin-right:2px;
+   margin-bottom:5px;
+   color:blue;
 }
 
 a {
