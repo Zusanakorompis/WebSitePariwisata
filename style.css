@@ -4,22 +4,14 @@
 }
 
 body {
-   background-image:
+   background-image: url("background.PNG.jpg");
 }
 
 header {
-   background-color:
-   width:
-   position:
-   height:
-}
-
-#logo {
-   float:
-   padding-top:
-   margin-left:
-   margin-top:
-   padding-bottom:
+   background-color: #FFFFFF;
+   width: 100%;
+   position: fixed;
+   height: 50px;
 }
 
 nav {
@@ -72,13 +64,3 @@ h3 {
    margin-bottom:5px;
 }
 
-footer {
-   width: auto;
-   background-color:black;
-   color:white;
-   text-align:center;
-   padding:10px;
-   font-size:15px;
-   margin-top:5px;
-
-}
