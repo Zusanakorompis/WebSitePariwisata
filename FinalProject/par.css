@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   /*Set Image Background*/
+   background-image: url("bukit teletubies.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+
+}
+
+
+header {
+   background-color: #353637;
+   width: 100%;
+   position: fixed;
+   height: 50px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+nav {
+   float: right; /* Set Value here */
+   text-align:justify;/* Set Align Text */
+   padding-right:10px;/* Set Padding Right */
+   margin-top:10px;/* Set Margin Top */
+}
+
+li {
+   display: inline-block;
+   margin-right:2px;/* Set Margin Right */
+   margin-bottom:5px;/* Set Margin Bottom */
+   color:blue;/* Set Color */
+}
+
+a {
+   text-decoration: white;
+}
+
+li a {
+   display: block;
+   padding: 10px 15px;
+}
+
+p {
+  Color:white;
+}
+
+li a:hover {
+   background-color: blue;
+   color: #FFFFFF;
+}
+
+h1 {
+   padding-top: 100px;
+   color: blue;
+   text-align:center;/* Set Align Text */
+   margin-bottom:20px;/* Set Margin Bottom */
+   font-size: 40px;
+}
+
+h3 {
+   color:blue;/* Set Color */
+   padding-bottom:10px;/* Set Padding Bottom */
+}
+
+#article-list article {
+	 width:50em;
+   margin-left:auto;/* Set margin */
+   margin-right:auto;
+   text-align:left;/* Set Align Text */
+   background-color:none;/* Set Background color */
+   padding:15px;/* Set Padding */
+   margin-bottom:5px;/* Set margin-bottom */
+}
+
+footer {
+   width: auto; /* Set value here */
+   background-color: #353637;/* Set Background color */
+   color:white;/* Set Color */
+   text-align:center;/* Set Align Text */
+   padding:10px;/* Set Padding */
+   font-size:15px;/* Set font Size */
+   margin-top:5px;/* Set Margin Top */
+
+}
