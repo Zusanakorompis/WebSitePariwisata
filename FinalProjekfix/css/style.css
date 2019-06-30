@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5,
       font-size: 1.2rem;
       line-height: 1.5; }
 .site-blocks-cover .btn {
-      border: 2px solid transparent; }
+      border: 2px solid transparent ; }
 .site-blocks-cover .btn:hover {
       color: #fff !important;
       background: none;
