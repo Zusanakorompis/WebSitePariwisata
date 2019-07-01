@@ -988,3 +988,170 @@ h1, h2, h3, h4, h5,
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out; }
 
+
+.block-25 ul li a .text .heading {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #999999; }
+
+.block-25 ul li a .meta {
+  color: #ef6c57; }
+
+.block-25 ul li a:hover img {
+  opacity: .5; }
+
+.block-25 ul li a:hover .text .heading {
+  color: #fff; }
+
+#date-countdown .countdown-block {
+  color: #b3b3b3; }
+
+#date-countdown .label {
+  font-size: 40px;
+  color: #000; }
+
+.next-match .image {
+  width: 50px;
+  border-radius: 50%; }
+
+.player {
+  position: relative; }
+  .player img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px; }
+  .player .team-number {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #ef6c57;
+    border-radius: 50%;
+    color: #fff; }
+    .player .team-number > span {
+      position: absolute;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%; }
+  .player h2 {
+    font-size: 20px;
+    letter-spacing: .2em;
+    text-transform: uppercase; }
+  .player .position {
+    font-size: 14px;
+    color: #b3b3b3;
+    text-transform: uppercase; }
+
+.site-block-27 ul, .site-block-27 ul li {
+  padding: 0;
+  margin: 0; }
+
+.site-block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px; }
+  .site-block-27 ul li a, .site-block-27 ul li span {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc; }
+  .site-block-27 ul li.active a, .site-block-27 ul li.active span {
+    background: #ef6c57;
+    color: #fff;
+    border: 1px solid transparent; }
+
+.site-block-feature-7 .icon {
+  -webkit-transition: .2s all ease-in-out;
+  -o-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+  position: relative;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+
+.site-block-feature-7:hover .icon, .site-block-feature-7:focus .icon, .site-block-feature-7:active .icon {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.unit-1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: block; }
+  .unit-1:after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+    background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+  .unit-1 img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  .unit-1 img, .unit-1 .unit-1-text {
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out; }
+  .unit-1 .unit-1-text {
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    display: block;
+    width: 100%; }
+    .unit-1 .unit-1-text .unit-1-heading {
+      font-size: 1.2rem;
+      position: relative; }
+  .unit-1:hover .unit-1-text {
+    bottom: 30px; }
+  .unit-1:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
+
+.overlap-section {
+  margin-top: -150px;
+  position: relative;
+  z-index: 9; }
+
+.unit-4 .unit-4-icon span {
+  line-height: 0;
+  font-size: 3rem; }
+
+.unit-4 h3 {
+  font-size: 20px; }
+
+.h-entry img {
+  margin-bottom: 30px; }
+
+.h-entry .meta {
+  color: #b3b3b3;
+  font-size: 14px; }
+
+.h-entry h2 {
+  font-size: 20px; }
+
+.overlap-left {
+  margin-left: -100px; }
+  @media (max-width: 991.98px) {
+    .overlap-left {
+      margin-left: 0px; } }
